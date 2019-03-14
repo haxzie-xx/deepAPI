@@ -24,7 +24,7 @@ parser.add_argument('--model', type=str, default='DeepAPI', help='model name')
 parser.add_argument('--expname', type=str, default='basic', help='experiment name, for disinguishing different parameter settings')
 parser.add_argument('--visual', action='store_true', default=False, help='visualize training status in tensorboard')
 parser.add_argument('--reload_from', type=int, default=-1, help='reload from a trained ephoch')
-parser.add_argument('--gpu_id', type=int, default=1, help='GPU ID')
+parser.add_argument('--gpu_id', type=int, default=0, help='GPU ID')
 
 # Evaluation Arguments
 parser.add_argument('--sample', action='store_true', help='sample when decoding for generation')
