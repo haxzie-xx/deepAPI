@@ -19,7 +19,7 @@ from tensorboardX import SummaryWriter # install tensorboardX (pip install tenso
 
 parser = argparse.ArgumentParser(description='DeepAPI Pytorch')
 # Path Arguments
-parser.add_argument('--data_path', type=str, default='/root/content/deepAPI/data/', help='location of the data corpus')
+parser.add_argument('--data_path', type=str, default='/root/content/deepAPI/pytorch/data/', help='location of the data corpus')
 parser.add_argument('--model', type=str, default='DeepAPI', help='model name')
 parser.add_argument('--expname', type=str, default='basic', help='experiment name, for disinguishing different parameter settings')
 parser.add_argument('--visual', action='store_true', default=False, help='visualize training status in tensorboard')
